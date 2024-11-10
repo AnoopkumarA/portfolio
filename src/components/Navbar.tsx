@@ -216,10 +216,10 @@ const Navbar = () => {
         initial={{ opacity: 0, x: '100%' }}
         animate={{ opacity: isMobileMenuOpen ? 1 : 0, x: isMobileMenuOpen ? 0 : '100%' }}
         transition={{ duration: 0.3 }}
-        className={`fixed inset-y-0 right-0 w-[250px] bg-cyber-darker/95 backdrop-blur-lg border-l border-cyber-blue/20 z-40 md:hidden ${
+        className={`fixed inset-y-0 -right-4 w-[250px] bg-cyber-darker/95 backdrop-blur-lg border-l border-cyber-blue/20 z-40 md:hidden ${
           isMobileMenuOpen ? '' : 'pointer-events-none'
         }`}
-        style={{ maxWidth: '90vw' }}
+        style={{ maxWidth: '90vw', transform: 'translateX(-16px)' }}
       >
         <div className="p-4 space-y-4 h-full relative overflow-y-auto">
           <div className="text-xs font-mono text-cyber-blue/50 px-4 py-2">// Navigation</div>
