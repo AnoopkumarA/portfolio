@@ -66,7 +66,7 @@ const Navbar = () => {
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(0,246,255,0.05),transparent_70%)]" />
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative py-5 md:top-0">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative py-5 md:py-0 md:top-0">
           <div className="flex items-center justify-between h-16">
             {/* Enhanced Tech Logo */}
             <motion.div 
@@ -195,7 +195,7 @@ const Navbar = () => {
             <motion.button
               whileTap={{ scale: 0.95 }}
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="md:hidden relative p-2 text-cyber-blue hover:bg-cyber-blue/10 rounded-lg group -left-11 md:-left-0"
+              className="md:hidden relative p-2 text-cyber-blue hover:bg-cyber-blue/10 rounded-lg group -left-8 md:-left-0"
             >
               <div className="relative z-10">
                 {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
