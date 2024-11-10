@@ -66,7 +66,7 @@ const Navbar = () => {
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(0,246,255,0.05),transparent_70%)]" />
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative ">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative top-8 md:top-0">
           <div className="flex items-center justify-between h-16">
             {/* Enhanced Tech Logo */}
             <motion.div 
