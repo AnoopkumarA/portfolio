@@ -195,7 +195,7 @@ const Navbar = () => {
             <motion.button
               whileTap={{ scale: 0.95 }}
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="md:hidden relative p-2 text-cyber-blue hover:bg-cyber-blue/10 rounded-lg group"
+              className="md:hidden relative p-2 text-cyber-blue hover:bg-cyber-blue/10 rounded-lg group -left-6"
             >
               <div className="relative z-10">
                 {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
