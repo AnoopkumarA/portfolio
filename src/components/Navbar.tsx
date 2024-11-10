@@ -216,25 +216,25 @@ const Navbar = () => {
         initial={{ opacity: 0, x: '100%' }}
         animate={{ opacity: isMobileMenuOpen ? 1 : 0, x: isMobileMenuOpen ? 0 : '100%' }}
         transition={{ duration: 0.3 }}
-        className={`fixed inset-y-0 right-0 w-[80%] sm:w-64 bg-cyber-darker/95 backdrop-blur-lg border-l border-cyber-blue/20 z-40 md:hidden ${
+        className={`fixed inset-y-0 right-0 w-[250px] bg-cyber-darker/95 backdrop-blur-lg border-l border-cyber-blue/20 z-40 md:hidden ${
           isMobileMenuOpen ? '' : 'pointer-events-none'
         }`}
-        style={{ maxWidth: '300px' }}
+        style={{ maxWidth: '90vw' }}
       >
-        <div className="p-4 space-y-4 h-full relative">
+        <div className="p-4 space-y-4 h-full relative overflow-y-auto">
           <div className="text-xs font-mono text-cyber-blue/50 px-4 py-2">// Navigation</div>
           {navItems.map((item, index) => (
             <motion.a
               key={item.name}
               href={item.href}
               onClick={(e) => handleNavClick(e, item.href.replace('#', ''))}
-              className="flex items-center gap-2 px-4 py-2 text-gray-300 hover:text-cyber-blue font-mono text-sm group"
+              className="flex items-center gap-2 px-4 py-2 text-gray-300 hover:text-cyber-blue font-mono text-sm group w-full"
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: index * 0.1 }}
             >
               <span className="text-cyber-blue/70">{item.icon}</span>
-              {item.name}
+              <span className="whitespace-nowrap">{item.name}</span>
               <div className="flex-1 h-px bg-cyber-blue/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
             </motion.a>
           ))}
