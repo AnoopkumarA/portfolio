@@ -185,7 +185,7 @@ function App() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 href="#projects"
-                className="cyber-button px-6 py-3 rounded-full border-2 border-cyber-blue flex items-center gap-2 hover:shadow-[0_0_15px_rgba(0,246,255,0.5)] transition-shadow"
+                className="cyber-button px-4 py-2 md:px-6 md:py-3 rounded-full border-2 border-cyber-blue flex items-center gap-2 hover:shadow-[0_0_15px_rgba(0,246,255,0.5)] transition-shadow"
               >
                 <FolderGit2 className="w-5 h-5" />
                 <span>View Projects</span>
@@ -195,7 +195,7 @@ function App() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 href="#contact"
-                className="cyber-button px-6 py-3 rounded-full border-2 border-cyber-blue flex items-center gap-2 hover:shadow-[0_0_15px_rgba(0,246,255,0.5)] transition-shadow"
+                className="cyber-button px-4 py-2 md:px-6 md:py-3 rounded-full border-2 border-cyber-blue flex items-center gap-2 hover:shadow-[0_0_15px_rgba(0,246,255,0.5)] transition-shadow"
               >
                 <MessageSquare className="w-5 h-5" />
                 <span>Contact Me</span>
