@@ -12,11 +12,11 @@ import { Spotlight } from './components/ui/spotlight';
 import ProgressRing from './components/ProgressRing';
 
 const TechHeading = ({ text }: { text: string }) => (
-  <div className="relative mb-16">
-    <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-[200px] h-[1px] bg-gradient-to-r from-transparent via-cyber-blue to-transparent" />
-    <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-[100px] h-[1px] bg-gradient-to-r from-transparent via-cyber-blue to-transparent animate-pulse" />
-    <h2 className="text-4xl font-bold text-center relative">
-      <span className="bg-cyber-darker px-6 relative">
+  <div className="relative mb-8 sm:mb-16">
+    <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-[160px] sm:w-[240px] h-[1px] bg-gradient-to-r from-transparent via-cyber-blue to-transparent" />
+    <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-[80px] sm:w-[120px] h-[1px] bg-gradient-to-r from-transparent via-cyber-blue to-transparent animate-pulse" />
+    <h2 className="text-3xl sm:text-5xl font-bold text-center relative">
+      <span className="bg-cyber-darker px-4 sm:px-8 relative">
         <span className="text-cyber-blue">&lt;</span>
         <span className="relative">
           {text}
@@ -26,10 +26,10 @@ const TechHeading = ({ text }: { text: string }) => (
         <span className="text-cyber-blue">/&gt;</span>
       </span>
     </h2>
-    <div className="flex justify-center gap-2 mt-2">
-      <div className="w-1 h-1 bg-cyber-blue/50 rounded-full animate-pulse" />
-      <div className="w-1 h-1 bg-cyber-blue/50 rounded-full animate-pulse delay-100" />
-      <div className="w-1 h-1 bg-cyber-blue/50 rounded-full animate-pulse delay-200" />
+    <div className="flex justify-center gap-1 sm:gap-2 mt-2">
+      <div className="w-1.5 h-1.5 bg-cyber-blue/50 rounded-full animate-pulse" />
+      <div className="w-1.5 h-1.5 bg-cyber-blue/50 rounded-full animate-pulse delay-100" />
+      <div className="w-1.5 h-1.5 bg-cyber-blue/50 rounded-full animate-pulse delay-200" />
     </div>
   </div>
 );
@@ -120,7 +120,7 @@ function App() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.6 }}
             >
-              <h1 className="text-4xl md:text-8xl font-bold mb-6 relative">
+              <h1 className="text-5xl md:text-8xl font-bold mb-6 relative">
                 <motion.span
                   className="text-white relative z-10"
                   animate={{
