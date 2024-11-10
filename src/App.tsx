@@ -180,12 +180,12 @@ function App() {
                 }}
               />
             </div>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+            <div className="flex flex-row gap-4 justify-center mb-8">
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 href="#projects"
-                className="cyber-button px-4 sm:px-6 py-2 sm:py-3 rounded-full border-2 border-cyber-blue flex items-center gap-2 hover:shadow-[0_0_15px_rgba(0,246,255,0.5)] transition-shadow text-sm sm:text-base"
+                className="cyber-button px-3 sm:px-6 py-2 sm:py-3 rounded-full border-2 border-cyber-blue flex items-center gap-1 sm:gap-2 hover:shadow-[0_0_15px_rgba(0,246,255,0.5)] transition-shadow text-xs sm:text-base whitespace-nowrap"
               >
                 <FolderGit2 className="w-4 h-4 sm:w-5 sm:h-5" />
                 <span>View Projects</span>
@@ -195,7 +195,7 @@ function App() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 href="#contact"
-                className="cyber-button px-4 sm:px-6 py-2 sm:py-3 rounded-full border-2 border-cyber-blue flex items-center gap-2 hover:shadow-[0_0_15px_rgba(0,246,255,0.5)] transition-shadow text-sm sm:text-base"
+                className="cyber-button px-3 sm:px-6 py-2 sm:py-3 rounded-full border-2 border-cyber-blue flex items-center gap-1 sm:gap-2 hover:shadow-[0_0_15px_rgba(0,246,255,0.5)] transition-shadow text-xs sm:text-base whitespace-nowrap"
               >
                 <MessageSquare className="w-4 h-4 sm:w-5 sm:h-5" />
                 <span>Contact Me</span>
