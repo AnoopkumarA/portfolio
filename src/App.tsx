@@ -120,7 +120,7 @@ function App() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.6 }}
             >
-              <h1 className="text-6xl md:text-8xl font-bold mb-6 relative">
+              <h1 className="text-4xl md:text-8xl font-bold mb-6 relative">
                 <motion.span
                   className="text-white relative z-10"
                   animate={{
