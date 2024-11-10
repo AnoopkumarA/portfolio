@@ -172,7 +172,7 @@ const ContactForm = () => {
           whileTap={{ scale: 0.98 }}
           type="submit"
           disabled={isSubmitting}
-          className="cyber-button px-16 flex items-center justify-center gap-2 relative overflow-hidden group disabled:opacity-50 left-16 md:left-[10rem]"
+          className="cyber-button w-full flex items-center justify-center gap-2 relative overflow-hidden group disabled:opacity-50 "
         >
           <span className="relative z-10 flex items-center gap-2">
             {isSubmitting ? 'Sending...' : 'Send Message'}
