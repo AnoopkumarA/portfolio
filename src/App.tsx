@@ -100,7 +100,7 @@ function App() {
   ];
 
   return (
-    <div className="min-h-screen bg-cyber-darker text-gray-100 scrollbar-hide">
+    <div className="min-h-screen bg-cyber-darker text-gray-100 scrollbar-hide overflow-x-hidden ">
       <Navbar />
       <ParticleBackground />
       
