@@ -230,6 +230,7 @@ function App() {
       </Spotlight>
 
       {/* About Me Section */}
+      <div className=' relative left-4 md:left-0 '>
       <motion.section
         ref={aboutRef}
         initial={{ opacity: 0, y: 20 }}
@@ -539,6 +540,8 @@ function App() {
         <ContactForm />
       </motion.section>
     </div>
+    </div>
+    
   );
 }
 
