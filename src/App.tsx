@@ -120,7 +120,7 @@ function App() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.6 }}
             >
-              <h1 className="text-4xl md:text-8xl font-bold mb-6 relative">
+              <h1 className="text-5xl md:text-8xl font-bold mb-6 relative">
                 <motion.span
                   className="text-white relative z-10"
                   animate={{
@@ -159,7 +159,7 @@ function App() {
             <div className="relative inline-block">
               <AnimatedText
                 text="Front-End Developer & AI Enthusiast"
-                className="text-xl md:text-2xl mb-8 font-mono relative z-10 bg-gradient-to-r from-cyber-blue via-white to-cyber-blue bg-clip-text text-transparent"
+                className="text-lg md:text-2xl mb-8 font-mono relative z-10 bg-gradient-to-r from-cyber-blue via-white to-cyber-blue bg-clip-text text-transparent"
               />
               {/* Tech decoration lines */}
               <div className="absolute -left-4 top-1/2 w-3 h-[1px] bg-cyber-blue/50" />
