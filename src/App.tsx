@@ -54,7 +54,7 @@ function App() {
       description: 'This is a fun experiment using Three.js and OpenCV.js to detect the color of a persons outfit in front of a camera and apply that color to a 3D car model.',
       image: 'https://thumbs.dreamstime.com/b/artificial-intelligence-ai-holographic-theme-technology-abstract-background-image-concept-wallpaper-334253471.jpg',
       tags: ['React', 'Three.js', 'Typescript','TailwindCSS'],
-      demoLink: 'https://chroma-ride-3-d.vercel.app/', target:'_blank',
+      demoLink: 'https://chroma-ride3d.vercel.app/', target:'_blank',
       sourceLink: 'https://github.com/AnoopkumarA/ChromaRide_3D'
     },
     {
