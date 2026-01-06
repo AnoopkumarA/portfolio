@@ -319,13 +319,14 @@ function App() {
               </div>
               <div className="pl-6">
                 <p className="text-gray-300 leading-relaxed">
-                Hello! I'm a passionate web developer with a love for creating websites that are as beautiful as they are functional.Currently, I'm pursuing a B.Tech in Artificial Intelligence and Data Science at St. Joseph College,where I’m learning how to combine technology and creativity. 
+                Hi, I’m Anoop Kumar.
+                 I’m a B.Tech graduate student specializing in Artificial Intelligence & Data Science, with hands-on experience in web development.
                 </p>
                 <div className="h-4"></div>
                 <p className="text-gray-300 leading-relaxed">
-                I’m proficient in front-end development with expertise in HTML, CSS, JavaScript, and React, and I enjoy working with UI/UX frameworks to create seamless user experiences. I’m also familiar with modern web tools and libraries, including TypeScript, Tailwind CSS, which help me build interactive web applications. Skilled
-                    in developing innovative AI solutions and predictive models. Seeking to leverage technical expertise in a dynamic
-                    organization.
+                I build responsive, user-friendly web applications using React and JavaScript, and I also work with AI tools to integrate intelligent features into real-world projects.
+
+                  I enjoy turning ideas into practical, reliable solutions that combine clean design with smart functionality.
 
                 </p>
               </div>
