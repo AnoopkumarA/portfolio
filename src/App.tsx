@@ -42,7 +42,7 @@ function App() {
   const [aboutRef, aboutInView] = useInView({ triggerOnce: true });
 
   const skills = [
-    { name: 'Frontend', value: 90, icon: <Layout className="w-6 h-6" /> },
+    { name: 'Web Development', value: 90, icon: <Layout className="w-6 h-6" /> },
     { name: 'Web Design', value: 85, icon: <Server className="w-6 h-6" /> },
     { name: 'AI Projects', value: 75, icon: <Database className="w-6 h-6" /> },
     { name: 'AI Prompting', value: 90, icon: <Code className="w-6 h-6" /> },
