@@ -182,7 +182,7 @@ function App() {
 
             <div className="relative inline-block">
               <AnimatedText
-                text="Front-End Developer & AI Enthusiast"
+                text=" Developer & AI Enthusiast"
                 className="text-lg md:text-2xl mb-8 font-mono relative z-10 bg-gradient-to-r from-cyber-blue via-white to-cyber-blue bg-clip-text text-transparent"
               />
               {/* Tech decoration lines */}
