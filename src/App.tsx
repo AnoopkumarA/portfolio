@@ -547,14 +547,13 @@ function App() {
             ))}
           </div>
 
-          {/* Third Row */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {projects.slice(3, 6).map((project, index) => (
+            {projects.slice(0, 3).map((project, index) => (
               <motion.div
-                key={index + 3}
+                key={index}
                 initial={{ opacity: 0, y: 20 }}
                 animate={projectsInView ? { opacity: 1, y: 0 } : {}}
-                transition={{ duration: 0.6, delay: (index + 3) * 0.1 }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
               >
                 <ProjectCard {...project} />
               </motion.div>
