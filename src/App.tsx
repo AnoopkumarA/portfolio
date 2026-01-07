@@ -76,18 +76,18 @@ function App() {
     {
       title: 'MovieVault Website',
       description: 'I developed Movievault, a responsive movie review web application that allows users to explore and discover movies through a clean and user-friendly interface. The website displays detailed movie information.',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2QjGkLA_E8mtFCFF0ayP-3MeK0iOfkQF5qg&s',
+      image: '/movie.png',
       tags: ['React', 'TailwindCSS', 'JavaScript','API',],
       demoLink: 'https://movievault.info/', target:'_blank',
       sourceLink: 'https://github.com/AnoopkumarA/Movie-review'
     },
     {
-      title: 'DenNDen Website',
-      description: 'I designed and developed the website for DEN N DEN SUSTAINABLE SOLUTIONS PRIVATE LIMITED, a company focused on providing innovative, eco-friendly solutions. ',
-      image: 'https://playitgreen.com/wp-content/uploads/2024/04/Making-a-website-sustainble-You-should-consider-inclusivity-and-accessibility-when-making-your-website-sustainable-768x512.jpg',
+      title: 'Echoes Home Design Website',
+      description: 'I developed Echoes Within, a visually appealing and user-friendly website for a home interior design startup. The website focuses on showcasing interior services and design aesthetics, and responsive design ',
+      image: '/echos.png',
       tags: ['HTML', 'CSS', 'JavaScript'],
-      demoLink: 'https://dennden.in/', target:'_blank',
-      sourceLink: 'https://github.com/AnoopkumarA/denden'
+      demoLink: 'https://echoeswithin.vercel.app/', target:'_blank',
+      sourceLink: 'https://github.com/AnoopkumarA/echoes-website'
     },
     {
       title: 'NASA_Space_Apps_Challenge_2024',
