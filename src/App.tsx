@@ -74,12 +74,12 @@ function App() {
       sourceLink: 'https://github.com/AnoopkumarA/Rome-maria'
     },
     {
-      title: 'OliaxStore Website',
-      description: 'OliaxStore is an online shopping platform that offers a wide range of clothing, shoes, and accessories for men and women, With a user-friendly interface.',
+      title: 'MovieVault Website',
+      description: 'I developed Movievault, a responsive movie review web application that allows users to explore and discover movies through a clean and user-friendly interface. The website displays detailed movie information.',
       image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2QjGkLA_E8mtFCFF0ayP-3MeK0iOfkQF5qg&s',
-      tags: ['HTML', 'Bootstrap', 'JavaScript'],
-      demoLink: 'https://oliax.vercel.app/', target:'_blank',
-      sourceLink: 'https://github.com/AnoopkumarA/OliaxStore'
+      tags: ['React', 'TailwindCSS', 'JavaScript','API',],
+      demoLink: 'https://movievault.info/', target:'_blank',
+      sourceLink: 'https://github.com/AnoopkumarA/Movie-review'
     },
     {
       title: 'DenNDen Website',
