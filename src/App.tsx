@@ -66,12 +66,12 @@ function App() {
       sourceLink: 'https://github.com/AnoopkumarA/skysaver'
     },
     {
-      title: 'Library Management System',
-      description: 'A simple, web-based Library Management System built with React. This project allows users to manage a library’s core functions, including book inventory, member records.',
+      title: 'Rome Mariya Website',
+      description: 'Designed and developed a modern, responsive website for an interior design business. Focused on clean UI, smooth navigation, and mobile-first design to effectively showcase services and design work.',
       image: '/li.jpeg',
-      tags: ['React', 'Typescript','TailwindCSS'],
-      demoLink: 'https://library-managment-system-self.vercel.app/', target:'_blank',
-      sourceLink: 'https://github.com/AnoopkumarA/Library_Managment_System'
+      tags: ['React', 'Typescript','TailwindCSS',' Node.js'],
+      demoLink: 'https://rome-maria.vercel.app/', target:'_blank',
+      sourceLink: 'https://github.com/AnoopkumarA/Rome-maria'
     },
     {
       title: 'OliaxStore Website',
