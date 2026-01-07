@@ -547,18 +547,19 @@ function App() {
             ))}
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {projects.slice(0, 3).map((project, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                animate={projectsInView ? { opacity: 1, y: 0 } : {}}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-              >
-                <ProjectCard {...project} />
-              </motion.div>
-            ))}
-          </div>
+          {/* Third Row */}
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+  {projects.slice(6, 9).map((project, index) => (
+    <motion.div
+      key={index + 6}
+      initial={{ opacity: 0, y: 20 }}
+      animate={projectsInView ? { opacity: 1, y: 0 } : {}}
+      transition={{ duration: 0.6, delay: (index + 6) * 0.1 }}
+    >
+      <ProjectCard {...project} />
+    </motion.div>
+  ))}
+</div>
         </div>
 
         {/* Tech decoration */}
